@@ -25,11 +25,15 @@ namespace ListComboBox
 		private void button2_Click(object sender, EventArgs e)
 		{
 			listBox1.Items.Add(comboBox1.SelectedItem);
+			comboBox1.Items.Remove(comboBox1.SelectedItem);
+			comboBox1.SelectAll();
+			comboBox1.SelectedText = "";
 		}
 
 		private void button3_Click(object sender, EventArgs e)
 		{
-			listBox1.Items.Remove(comboBox1.SelectedItem);
+			comboBox1.Items.Add(listBox1.SelectedItem);
+			listBox1.Items.Remove(listBox1.SelectedItem);
 		}
 	}
 }

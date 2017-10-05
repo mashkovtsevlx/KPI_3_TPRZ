@@ -48,6 +48,7 @@
 			this.textBox1.Size = new System.Drawing.Size(100, 20);
 			this.textBox1.TabIndex = 1;
 			this.textBox1.Text = "pes";
+			//this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
 			// 
 			// TestForm
 			// 
@@ -58,9 +59,9 @@
 			this.Controls.Add(this.label1);
 			this.Name = "TestForm";
 			this.Text = "Form1";
-			this.Activated += new System.EventHandler(this.TestForm_Activated);
-			this.Deactivate += new System.EventHandler(this.TestForm_Deactivate);
-			this.Load += new System.EventHandler(this.TestForm_Load);
+			//this.Activated += new System.EventHandler(this.TestForm_Activated);
+			//this.Deactivate += new System.EventHandler(this.TestForm_Deactivate);
+			//this.Load += new System.EventHandler(this.TestForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

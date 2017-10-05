@@ -32,7 +32,7 @@ namespace Programm1
 			f.StartPosition = FormStartPosition.CenterScreen;
 			f.ShowDialog();
 		}
-		private void TestForm_Load(object sender, EventArgs e)
+		/*private void TestForm_Load(object sender, EventArgs e)
 		{
 			x = 10;
 			MessageBox.Show(Convert.ToString(x));
@@ -48,6 +48,6 @@ namespace Programm1
 		{
 			x = 25;
 			MessageBox.Show(Convert.ToString(x));
-		}
+		}*/
 	}
 }
